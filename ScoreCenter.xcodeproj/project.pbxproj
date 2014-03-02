@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D51B4D18C2F32200522E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D51B4C18C2F32200522E0C /* Foundation.framework */; };
+		32D51B4F18C2F32200522E0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D51B4E18C2F32200522E0C /* CoreGraphics.framework */; };
+		32D51B5118C2F32200522E0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D51B5018C2F32200522E0C /* UIKit.framework */; };
+		32D51B5718C2F32200522E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D51B5518C2F32200522E0C /* InfoPlist.strings */; };
+		32D51B5918C2F32200522E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D51B5818C2F32200522E0C /* main.m */; };
+		32D51B5D18C2F32200522E0C /* CricketScoresAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D51B5C18C2F32200522E0C /* CricketScoresAppDelegate.m */; };
+		32D51B6018C2F32300522E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D51B5E18C2F32300522E0C /* Main.storyboard */; };
+		32D51B6318C2F32300522E0C /* CricketScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D51B6218C2F32300522E0C /* CricketScoresViewController.m */; };
+		32D51B6518C2F32300522E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D51B6418C2F32300522E0C /* Images.xcassets */; };
+		32D51B6C18C2F32300522E0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D51B6B18C2F32300522E0C /* XCTest.framework */; };
+		32D51B6D18C2F32300522E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D51B4C18C2F32200522E0C /* Foundation.framework */; };
+		32D51B6E18C2F32300522E0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D51B5018C2F32200522E0C /* UIKit.framework */; };
+		32D51B7618C2F32300522E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D51B7418C2F32300522E0C /* InfoPlist.strings */; };
+		32D51B7818C2F32300522E0C /* ScoreCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D51B7718C2F32300522E0C /* ScoreCenterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32D51B6F18C2F32300522E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32D51B4118C2F32200522E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D51B4818C2F32200522E0C;
+			remoteInfo = ScoreCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32D51B4918C2F32200522E0C /* ScoreCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D51B4C18C2F32200522E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32D51B4E18C2F32200522E0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32D51B5018C2F32200522E0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32D51B5418C2F32200522E0C /* ScoreCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreCenter-Info.plist"; sourceTree = "<group>"; };
+		32D51B5618C2F32200522E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32D51B5818C2F32200522E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32D51B5A18C2F32200522E0C /* ScoreCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreCenter-Prefix.pch"; sourceTree = "<group>"; };
+		32D51B5B18C2F32200522E0C /* CricketScoresAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricketScoresAppDelegate.h; sourceTree = "<group>"; };
+		32D51B5C18C2F32200522E0C /* CricketScoresAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketScoresAppDelegate.m; sourceTree = "<group>"; };
+		32D51B5F18C2F32300522E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32D51B6118C2F32300522E0C /* CricketScoresViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricketScoresViewController.h; sourceTree = "<group>"; };
+		32D51B6218C2F32300522E0C /* CricketScoresViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketScoresViewController.m; sourceTree = "<group>"; };
+		32D51B6418C2F32300522E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32D51B6A18C2F32300522E0C /* ScoreCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D51B6B18C2F32300522E0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32D51B7318C2F32300522E0C /* ScoreCenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreCenterTests-Info.plist"; sourceTree = "<group>"; };
+		32D51B7518C2F32300522E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32D51B7718C2F32300522E0C /* ScoreCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreCenterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D51B4618C2F32200522E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D51B4F18C2F32200522E0C /* CoreGraphics.framework in Frameworks */,
+				32D51B5118C2F32200522E0C /* UIKit.framework in Frameworks */,
+				32D51B4D18C2F32200522E0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D51B6718C2F32300522E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D51B6C18C2F32300522E0C /* XCTest.framework in Frameworks */,
+				32D51B6E18C2F32300522E0C /* UIKit.framework in Frameworks */,
+				32D51B6D18C2F32300522E0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D51B4018C2F32200522E0C = {
+			isa = PBXGroup;
+			children = (
+				32D51B5218C2F32200522E0C /* ScoreCenter */,
+				32D51B7118C2F32300522E0C /* ScoreCenterTests */,
+				32D51B4B18C2F32200522E0C /* Frameworks */,
+				32D51B4A18C2F32200522E0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32D51B4A18C2F32200522E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D51B4918C2F32200522E0C /* ScoreCenter.app */,
+				32D51B6A18C2F32300522E0C /* ScoreCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32D51B4B18C2F32200522E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32D51B4C18C2F32200522E0C /* Foundation.framework */,
+				32D51B4E18C2F32200522E0C /* CoreGraphics.framework */,
+				32D51B5018C2F32200522E0C /* UIKit.framework */,
+				32D51B6B18C2F32300522E0C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32D51B5218C2F32200522E0C /* ScoreCenter */ = {
+			isa = PBXGroup;
+			children = (
+				32D51B5E18C2F32300522E0C /* Main.storyboard */,
+				32D51B5B18C2F32200522E0C /* CricketScoresAppDelegate.h */,
+				32D51B5C18C2F32200522E0C /* CricketScoresAppDelegate.m */,
+				32D51B6118C2F32300522E0C /* CricketScoresViewController.h */,
+				32D51B6218C2F32300522E0C /* CricketScoresViewController.m */,
+				32D51B6418C2F32300522E0C /* Images.xcassets */,
+				32D51B5318C2F32200522E0C /* Supporting Files */,
+			);
+			path = ScoreCenter;
+			sourceTree = "<group>";
+		};
+		32D51B5318C2F32200522E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D51B5418C2F32200522E0C /* ScoreCenter-Info.plist */,
+				32D51B5518C2F32200522E0C /* InfoPlist.strings */,
+				32D51B5818C2F32200522E0C /* main.m */,
+				32D51B5A18C2F32200522E0C /* ScoreCenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32D51B7118C2F32300522E0C /* ScoreCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				32D51B7718C2F32300522E0C /* ScoreCenterTests.m */,
+				32D51B7218C2F32300522E0C /* Supporting Files */,
+			);
+			path = ScoreCenterTests;
+			sourceTree = "<group>";
+		};
+		32D51B7218C2F32300522E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D51B7318C2F32300522E0C /* ScoreCenterTests-Info.plist */,
+				32D51B7418C2F32300522E0C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32D51B4818C2F32200522E0C /* ScoreCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D51B7B18C2F32300522E0C /* Build configuration list for PBXNativeTarget "ScoreCenter" */;
+			buildPhases = (
+				32D51B4518C2F32200522E0C /* Sources */,
+				32D51B4618C2F32200522E0C /* Frameworks */,
+				32D51B4718C2F32200522E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreCenter;
+			productName = ScoreCenter;
+			productReference = 32D51B4918C2F32200522E0C /* ScoreCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32D51B6918C2F32300522E0C /* ScoreCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D51B7E18C2F32300522E0C /* Build configuration list for PBXNativeTarget "ScoreCenterTests" */;
+			buildPhases = (
+				32D51B6618C2F32300522E0C /* Sources */,
+				32D51B6718C2F32300522E0C /* Frameworks */,
+				32D51B6818C2F32300522E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D51B7018C2F32300522E0C /* PBXTargetDependency */,
+			);
+			name = ScoreCenterTests;
+			productName = ScoreCenterTests;
+			productReference = 32D51B6A18C2F32300522E0C /* ScoreCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32D51B4118C2F32200522E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CricketScores;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Aniruddha Talur";
+				TargetAttributes = {
+					32D51B6918C2F32300522E0C = {
+						TestTargetID = 32D51B4818C2F32200522E0C;
+					};
+				};
+			};
+			buildConfigurationList = 32D51B4418C2F32200522E0C /* Build configuration list for PBXProject "ScoreCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32D51B4018C2F32200522E0C;
+			productRefGroup = 32D51B4A18C2F32200522E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D51B4818C2F32200522E0C /* ScoreCenter */,
+				32D51B6918C2F32300522E0C /* ScoreCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D51B4718C2F32200522E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D51B6518C2F32300522E0C /* Images.xcassets in Resources */,
+				32D51B5718C2F32200522E0C /* InfoPlist.strings in Resources */,
+				32D51B6018C2F32300522E0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D51B6818C2F32300522E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D51B7618C2F32300522E0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D51B4518C2F32200522E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D51B5918C2F32200522E0C /* main.m in Sources */,
+				32D51B5D18C2F32200522E0C /* CricketScoresAppDelegate.m in Sources */,
+				32D51B6318C2F32300522E0C /* CricketScoresViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D51B6618C2F32300522E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D51B7818C2F32300522E0C /* ScoreCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32D51B7018C2F32300522E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D51B4818C2F32200522E0C /* ScoreCenter */;
+			targetProxy = 32D51B6F18C2F32300522E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32D51B5518C2F32200522E0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D51B5618C2F32200522E0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32D51B5E18C2F32300522E0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D51B5F18C2F32300522E0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32D51B7418C2F32300522E0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D51B7518C2F32300522E0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32D51B7918C2F32300522E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32D51B7A18C2F32300522E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32D51B7C18C2F32300522E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreCenter/ScoreCenter-Prefix.pch";
+				INFOPLIST_FILE = "ScoreCenter/ScoreCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32D51B7D18C2F32300522E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreCenter/ScoreCenter-Prefix.pch";
+				INFOPLIST_FILE = "ScoreCenter/ScoreCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32D51B7F18C2F32300522E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoreCenter.app/ScoreCenter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreCenter/ScoreCenter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScoreCenterTests/ScoreCenterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32D51B8018C2F32300522E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoreCenter.app/ScoreCenter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreCenter/ScoreCenter-Prefix.pch";
+				INFOPLIST_FILE = "ScoreCenterTests/ScoreCenterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32D51B4418C2F32200522E0C /* Build configuration list for PBXProject "ScoreCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D51B7918C2F32300522E0C /* Debug */,
+				32D51B7A18C2F32300522E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D51B7B18C2F32300522E0C /* Build configuration list for PBXNativeTarget "ScoreCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D51B7C18C2F32300522E0C /* Debug */,
+				32D51B7D18C2F32300522E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32D51B7E18C2F32300522E0C /* Build configuration list for PBXNativeTarget "ScoreCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D51B7F18C2F32300522E0C /* Debug */,
+				32D51B8018C2F32300522E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32D51B4118C2F32200522E0C /* Project object */;
+}
